@@ -119,10 +119,10 @@ let form = document.querySelector("#horoscopeForm");
 // get the reset button by its ID
 let resetButton = document.querySelector("#reset");
 
-//this is for when the form is submitted and run onFormSubmit
+//this is for when the form is submitted and run on frm submit
 form.addEventListener("submit", onFormSubmit);
 
-// this is for when the reset button is clicked and run clearForm
+// this is for when the reset button is clicked and run clear form
 resetButton.addEventListener("click", clearForm);
 // this function will run when the form is submitted
 function onFormSubmit(event) {
@@ -160,7 +160,7 @@ puts it inside the form area so the user can see it.*/
     if (sign.sign === picked) {
       // show the signs info in the result box
       // now using .join(", ") for lucky numbers
-      // i had to copy this from the stack overflow and still dont understand it but it worked https://www.w3schools.com/jsref/jsref_join.asp
+      // i had to copy this from the and still dont understand it but it worked https://www.w3schools.com/jsref/jsref_join.asp
 
       box.innerHTML = `
 				<h2>${sign.sign}</h2>
