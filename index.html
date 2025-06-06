@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Horoscopes</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <form id="horoscopeForm" class="form-container">
+      <h1>Zodiac Sign Form</h1>
+      <label for="zodiac">Choose your zodiac sign:</label>
+      <select id="zodiac" name="zodiac">
+        <option value="">Select your sign</option>
+        <option>Aries</option>
+        <option>Taurus</option>
+        <option>Gemini</option>
+        <option>Cancer</option>
+        <option>Leo</option>
+        <option>Virgo</option>
+        <option>Libra</option>
+        <option>Scorpio</option>
+        <option>Sagittarius</option>
+        <option>Capricorn</option>
+        <option>Aquarius</option>
+        <option>Pisces</option>
+      </select>
+      <button>Submit</button><br /><br />
+      <button type="button" id="reset" style="display: none">Reset</button>
+    </form>
+    <script src="api.js"></script>
+  </body>
+</html>
